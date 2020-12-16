@@ -25,13 +25,13 @@ body {
 }
 
 #root.clicked h1 {
-  -webkit-animation: rotate 4s infinite;
-          animation: rotate 4s infinite;
+  -webkit-animation: rotate 4s infinite linear;
+          animation: rotate 4s infinite linear;
 }
 
 #root.clicked p {
-  -webkit-animation: rotate 4s infinite;
-          animation: rotate 4s infinite;
+  -webkit-animation: rotate 4s infinite linear;
+          animation: rotate 4s infinite linear;
 }
 
 @-webkit-keyframes rotate {

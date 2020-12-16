@@ -23,10 +23,10 @@ p {
 		font-weight: 200;
 	}
 	&.clicked {
-    h1{ animation: rotate 4s infinite;
+		h1{ animation: rotate 4s infinite linear;
     }
     p {
-      animation: rotate 4s infinite;
+      animation: rotate 4s infinite linear;
     }
   }
 }
@@ -35,6 +35,7 @@ p {
 
 @keyframes rotate {
   0% {
+		
     transform: rotate(0deg) translate(-50%, -50%);
     
   }
